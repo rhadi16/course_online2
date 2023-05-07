@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+.parent-profile {
+    height: 100px;
+}
+
+.img-round-profile,
+.img-profile {
+    background-size: cover;
+    background-position: center;
+    /* min-height: 300px; */
+}
+.img-profile {
+    min-height: 300px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+#logout,
+.pointer {
+    cursor: pointer;
+}
+
+.text-mapel-guru {
+    font-size: 0.8rem;
+}
+  
+/* for main section */
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -45px;
+}
+
+.my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+}
+
+/* .card-profile {
+    width: 50%;    
+}
+
+@media (max-width: 992px) { 
+    .card-profile {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) { 
+    .card-profile {
+        width: 70%;
+    }
+} */
+
+/* @media (max-width: 576px) { 
+    .card-profile {
+        width: 80%;
+    }
+} */
+  

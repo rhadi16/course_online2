@@ -1,0 +1,11 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.parent-login {
+    min-height: 150px;
+}
+
+.img-login {
+    background-size: cover;
+    background-position: center;
+}
